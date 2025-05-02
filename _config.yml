@@ -18,10 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Thinking Out Loud
+title: Figuring It Out As I Go
 email: johnteckert@gmail.com
+# A personal blog on the path to becoming a mental health counselor; Informal thoughts, notes, reflections, and whatever else seems like a good idea at the time.
 description: >- # this means to ignore newlines until "baseurl:"
-  As I work toward becoming a mental health counselor, this blog will be a space to process what I learn along the way. It's a place for informal thoughts, notes, reflections, and whatever else seems like a good idea at the time.
+  Reflections on mental health, meaningful work, and trying again (and again).
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
