@@ -22,8 +22,8 @@ title: Thinking Out Loud
 email: johnteckert@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   As I work toward becoming a mental health counselor, this blog will be a space to process what I learn along the way. It's a place for informal thoughts, notes, reflections, and whatever else seems like a good idea at the time.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
