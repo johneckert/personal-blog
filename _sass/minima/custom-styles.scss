@@ -1,2 +1,18 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.about-content {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-content img {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  max-width: 40%;
+  height: auto;
+}
+
+.about-content p {
+  margin: 0 0 1rem;
+}
