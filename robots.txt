@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /drafts/
+Disallow: /404.html
+Sitemap: {{ site.url }}/sitemap.xml
