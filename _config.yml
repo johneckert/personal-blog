@@ -8,35 +8,55 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: Figuring It Out As I Go
 author:
   name: John Eckert
   email: johnteckert@gmail.com
-# A personal blog on the path to becoming a mental health counselor; Informal thoughts, notes, reflections, and whatever else seems like a good idea at the time.
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Reflections on mental health, meaningful work, and trying again (and again).
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.jeckert.com"
+google_analytics: G-65KYP88MQP
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
-# Build settings
-# theme: minima
-# https://github.com/jekyll/minima
-# remote_theme: "jekyll/minima@c6e74bb" # v2.5.2
+timezone: America/New_York
 plugins:
   - jekyll-feed
+  - jekyll-compose
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      layout: post
+      permalink: 
+      description:
+      published: false
+      sitemap: false
+      tags:
+    posts:
+      layout: post
+      permalink: 
+      description:
+      published: true
+      sitemap: true
+      tags:
+    pages:
+      layout: page
+      permalink: 
+      description:
+      image:
+        src:
+        alt:
+      sitemap: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
