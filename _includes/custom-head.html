@@ -1,3 +1,10 @@
+<!-- Google Analytics -->
+{%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- include google-analytics.html -%}
+{%- endif -%}
+
 <!-- SEO tags -->
 {% seo %}
 
+<!-- RSS Feed -->
+{%- feed_meta -%}
