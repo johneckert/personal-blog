@@ -8,8 +8,7 @@ layout: base
   </header>
 
   <div class="about-content">
-    <img src="/assets/john-and-winston.jpg" alt="John and his cat Winston"/>
+    <img src="{{ page.image.src }}" alt="{{ page.image.alt | escape }}" />
     {{ content }}
   </div>
-
 </article>

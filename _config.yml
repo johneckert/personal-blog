@@ -36,6 +36,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # remote_theme: "jekyll/minima@c6e74bb" # v2.5.2
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
